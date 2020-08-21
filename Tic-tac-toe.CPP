@@ -122,7 +122,7 @@ void if_registration()
 	cout<<"Enter your namr : ";
 	scanf("%[^\n]",&name);
 	int gdriver = DETECT,gmode;
-	initgraph(&gdriver,&gmode,"C:\\TC\\BGI");
+	initgraph(&gdriver,&gmode,"");    // Replace "" with your graphics driver location
 	clrscr();     cleardevice();
 	settextstyle(TRIPLEX_FONT,0,2);
 	setbkcolor(BLACK);
