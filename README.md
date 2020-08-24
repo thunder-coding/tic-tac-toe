@@ -9,6 +9,9 @@ The .exe (executable) file provided in here is 16bit exe file. This file may not
 
 # Screenshots
 <img src="https://github.com/thunder-coding/tic-tac-toe/blob/master/images/image_1.jpg">
+<img src="https://github.com/thunder-coding/tic-tac-toe/blob/master/images/image_2.jpg">
+<img src="https://github.com/thunder-coding/tic-tac-toe/blob/master/images/image_3.jpg">
+<img src="https://github.com/thunder-coding/tic-tac-toe/blob/master/images/image_4.jpg">
 
 
 # Download Source Code
