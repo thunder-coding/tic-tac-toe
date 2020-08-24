@@ -119,7 +119,7 @@ void initialize()
 
 void if_registration()
 {
-	cout<<"Enter your namr : ";
+	cout<<"Enter your name : ";
 	scanf("%[^\n]",&name);
 	int gdriver = DETECT,gmode;
 	initgraph(&gdriver,&gmode,"");    // Replace "" with your graphics driver location
