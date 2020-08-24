@@ -397,7 +397,18 @@ startmouse();
 delay(300);
 _setcursortype(_NOCURSOR);
 if(game._computer == X)
+{
 	game.play_computer();
+	game.print_on_map("A1",game.A1);
+	game.print_on_map("B1",game.B1);
+	game.print_on_map("C1",game.C1);
+	game.print_on_map("A2",game.A2);
+	game.print_on_map("B2",game.B2);
+	game.print_on_map("C2",game.C2);
+	game.print_on_map("A3",game.A3);
+	game.print_on_map("B3",game.B3);
+	game.print_on_map("C3",game.C3);
+}
 while(!game.check_result())
 {
 	showmouse();
