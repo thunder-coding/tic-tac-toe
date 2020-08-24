@@ -19,6 +19,6 @@ The .exe (executable) file provided in here is 16bit exe file. This file may not
 
 
 # Follow me
-[twitter](https://www.twitter.com/CodingThunder)
+<a href="https://www.twitter.com/CodingThunder"><img src="https://github.com/thunder-coding/tic-tac-toe/blob/master/images/Twitter_Logo_Blue.png" height=50></a>
 
 [instagram](https://www.instagram.com/thunder_coding.expert)
