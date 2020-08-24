@@ -6,6 +6,11 @@ Watch the comment next to initgraph funtion for more information
 
 The .exe (executable) file provided in here is 16bit exe file. This file may not be able to run directly on your PC without using DosBox like applications
 
+
+# Screenshots
+<img src="./images/,image_1.jpg">
+
+
 # Download Source Code
 [v1.0](https://github.com/thunder-coding/tic-tac-toe/archive/v1.0.zip)
 
