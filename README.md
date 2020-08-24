@@ -8,7 +8,7 @@ The .exe (executable) file provided in here is 16bit exe file. This file may not
 
 
 # Screenshots
-<img src="./images/,image_1.jpg">
+<img src="www.github.com/thunder-coding/tic-tac-toe/images/image_1.jpg">
 
 
 # Download Source Code
