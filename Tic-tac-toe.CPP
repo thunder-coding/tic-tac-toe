@@ -7,8 +7,6 @@
 #include <conio.h>
 #include <iostream.h>
 #include <math.h>
-#include <complex.h>
-#include <fstream.h>
 
 union REGS in,out;
 
@@ -105,6 +103,7 @@ class  __GAME__X_O__
 		public:
 void initialize()
 {
+	strcpy(name,"");
 	fflush(stdin);	fflush(stdout);
 	clrscr();
 	A1=A2=A3=B1=B2=B3=C1=C2=C3=EMPTY;
@@ -119,8 +118,11 @@ void initialize()
 
 void if_registration()
 {
+	if(!strcmp(name,"")
+	{
 	cout<<"Enter your name : ";
 	scanf("%[^\n]",&name);
+	}
 	int gdriver = DETECT,gmode;
 	initgraph(&gdriver,&gmode,"");    // Replace "" with your graphics driver location
 	clrscr();     cleardevice();
@@ -386,12 +388,12 @@ textbackground(BLACK);
 textcolor(WHITE);
 __GAME__X_O__ game;
 game.win = game.lose = game.tie = 0;
-game.if_registration();
 clrscr();
 closegraph();
 game.win=game.lose=game.tie=0;
 play_again:
 game.initialize();
+game.if_registration();
 game.print_map();
 startmouse();
 delay(300);
