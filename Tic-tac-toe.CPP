@@ -515,13 +515,6 @@ cout<<endl
 char a = getch();
 if((a == 'y')||(a == 'Y'))
 	goto play_again;
-FILE *file;
-char name[100];
-strcpy(name,game.name);
-name[0] = game.name[0] - 1;
-file = fopen("GAMEY2.GAM","w");
-fprintf(file,"%d-%d-%d-%s",game.win,game.lose,game.tie,name);
-fclose(file);
 cout<<"We will be happy to see you again";
 _setcursortype(_NORMALCURSOR);
 getch();
